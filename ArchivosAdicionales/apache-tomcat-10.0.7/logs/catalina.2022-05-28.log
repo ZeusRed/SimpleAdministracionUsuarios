@@ -1,0 +1,972 @@
+28-May-2022 14:48:28.325 INFO [http-nio-8090-exec-27] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 14:48:28.394 WARNING [http-nio-8090-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 14:48:28.396 WARNING [http-nio-8090-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 14:48:30.554 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 14:48:34.258 INFO [http-nio-8090-exec-27] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 14:48:34.340 INFO [http-nio-8090-exec-27] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 14:49:01.796 INFO [http-nio-8090-exec-28] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 14:49:05.137 INFO [http-nio-8090-exec-28] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 14:49:05.200 INFO [http-nio-8090-exec-28] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 14:52:10.706 INFO [http-nio-8090-exec-35] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 14:52:13.897 INFO [http-nio-8090-exec-35] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 14:52:13.939 INFO [http-nio-8090-exec-35] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 14:52:15.755 INFO [http-nio-8090-exec-33] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 14:52:18.320 INFO [http-nio-8090-exec-33] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 14:52:18.404 INFO [http-nio-8090-exec-33] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 14:53:45.733 INFO [http-nio-8090-exec-46] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 14:53:49.252 INFO [http-nio-8090-exec-46] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 14:53:49.294 INFO [http-nio-8090-exec-46] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 14:57:53.577 INFO [http-nio-8090-exec-49] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 14:57:56.881 INFO [http-nio-8090-exec-49] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 14:57:56.970 INFO [http-nio-8090-exec-49] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 14:58:03.795 INFO [http-nio-8090-exec-48] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 14:58:05.997 INFO [http-nio-8090-exec-48] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 14:58:06.056 INFO [http-nio-8090-exec-48] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 14:58:51.042 INFO [http-nio-8090-exec-55] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 14:58:52.898 INFO [http-nio-8090-exec-55] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 14:58:52.942 INFO [http-nio-8090-exec-55] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:02:44.039 INFO [http-nio-8090-exec-62] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:02:45.827 INFO [http-nio-8090-exec-62] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:02:45.868 INFO [http-nio-8090-exec-62] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:04:10.048 INFO [http-nio-8090-exec-63] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:04:11.783 INFO [http-nio-8090-exec-63] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:04:11.830 INFO [http-nio-8090-exec-63] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:04:14.496 INFO [http-nio-8090-exec-64] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:04:16.265 INFO [http-nio-8090-exec-64] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:04:16.325 INFO [http-nio-8090-exec-64] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:04:19.642 INFO [http-nio-8090-exec-60] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:04:21.546 INFO [http-nio-8090-exec-60] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:04:21.605 INFO [http-nio-8090-exec-60] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:04:22.068 INFO [http-nio-8090-exec-68] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:04:23.803 INFO [http-nio-8090-exec-68] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:04:23.852 INFO [http-nio-8090-exec-68] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:09:12.458 INFO [http-nio-8090-exec-77] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:09:12.462 WARNING [http-nio-8090-exec-77] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 15:09:12.463 WARNING [http-nio-8090-exec-77] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 15:09:12.785 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 15:09:12.786 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 15:09:12.788 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 15:09:14.506 INFO [http-nio-8090-exec-77] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:09:14.556 INFO [http-nio-8090-exec-77] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:09:19.093 INFO [http-nio-8090-exec-87] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:09:20.702 INFO [http-nio-8090-exec-87] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:09:20.737 INFO [http-nio-8090-exec-87] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:12:39.927 INFO [http-nio-8090-exec-89] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:12:42.220 INFO [http-nio-8090-exec-89] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:12:42.285 INFO [http-nio-8090-exec-89] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:13:00.550 INFO [http-nio-8090-exec-81] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:13:02.403 INFO [http-nio-8090-exec-81] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:13:02.476 INFO [http-nio-8090-exec-81] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:13:54.196 INFO [http-nio-8090-exec-99] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:13:56.089 INFO [http-nio-8090-exec-99] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:13:56.128 INFO [http-nio-8090-exec-99] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:13:58.715 INFO [http-nio-8090-exec-96] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:14:00.393 INFO [http-nio-8090-exec-96] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:14:00.461 INFO [http-nio-8090-exec-96] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:15:33.680 INFO [http-nio-8090-exec-102] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:15:35.599 INFO [http-nio-8090-exec-102] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:15:35.648 INFO [http-nio-8090-exec-102] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:16:07.712 INFO [http-nio-8090-exec-94] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:16:09.466 INFO [http-nio-8090-exec-94] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:16:09.506 INFO [http-nio-8090-exec-94] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:16:35.143 INFO [http-nio-8090-exec-105] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:16:36.775 INFO [http-nio-8090-exec-105] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:16:36.837 INFO [http-nio-8090-exec-105] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:17:36.680 INFO [http-nio-8090-exec-104] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:17:38.642 INFO [http-nio-8090-exec-104] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:17:38.676 INFO [http-nio-8090-exec-104] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:17:48.231 INFO [http-nio-8090-exec-108] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:17:49.938 INFO [http-nio-8090-exec-108] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:17:49.979 INFO [http-nio-8090-exec-108] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:18:40.209 INFO [http-nio-8090-exec-106] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:18:42.106 INFO [http-nio-8090-exec-106] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:18:42.260 INFO [http-nio-8090-exec-106] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:19:18.842 INFO [http-nio-8090-exec-100] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:19:20.492 INFO [http-nio-8090-exec-100] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:19:20.524 INFO [http-nio-8090-exec-100] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:19:50.182 INFO [http-nio-8090-exec-118] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:19:52.032 INFO [http-nio-8090-exec-118] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:19:52.087 INFO [http-nio-8090-exec-118] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:26:08.997 INFO [http-nio-8090-exec-123] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:26:10.796 INFO [http-nio-8090-exec-123] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:26:10.843 INFO [http-nio-8090-exec-123] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:26:54.272 INFO [http-nio-8090-exec-124] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:26:56.084 INFO [http-nio-8090-exec-124] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:26:56.121 INFO [http-nio-8090-exec-124] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:27:11.227 INFO [http-nio-8090-exec-127] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:27:12.908 INFO [http-nio-8090-exec-127] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:27:12.989 INFO [http-nio-8090-exec-127] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:27:32.939 INFO [http-nio-8090-exec-126] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:27:34.755 INFO [http-nio-8090-exec-126] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:27:34.802 INFO [http-nio-8090-exec-126] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:27:37.077 INFO [http-nio-8090-exec-133] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:27:38.546 INFO [http-nio-8090-exec-133] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:27:38.585 INFO [http-nio-8090-exec-133] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:27:42.951 INFO [http-nio-8090-exec-136] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:27:44.869 INFO [http-nio-8090-exec-136] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:27:44.905 INFO [http-nio-8090-exec-136] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:28:22.733 INFO [http-nio-8090-exec-138] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:28:24.460 INFO [http-nio-8090-exec-138] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:28:24.502 INFO [http-nio-8090-exec-138] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:29:02.247 INFO [http-nio-8090-exec-143] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:29:03.920 INFO [http-nio-8090-exec-143] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:29:03.967 INFO [http-nio-8090-exec-143] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:29:28.666 INFO [http-nio-8090-exec-142] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:29:30.363 INFO [http-nio-8090-exec-142] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:29:30.394 INFO [http-nio-8090-exec-142] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:39:31.862 INFO [http-nio-8090-exec-154] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:39:33.507 INFO [http-nio-8090-exec-154] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:39:33.553 INFO [http-nio-8090-exec-154] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:40:06.114 INFO [http-nio-8090-exec-148] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:40:08.027 INFO [http-nio-8090-exec-148] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:40:08.088 INFO [http-nio-8090-exec-148] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:46:42.802 INFO [http-nio-8090-exec-159] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:46:44.779 INFO [http-nio-8090-exec-159] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:46:44.820 INFO [http-nio-8090-exec-159] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:48:51.123 INFO [http-nio-8090-exec-170] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:48:52.830 INFO [http-nio-8090-exec-170] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:48:52.873 INFO [http-nio-8090-exec-170] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:49:05.037 INFO [http-nio-8090-exec-169] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:49:06.717 INFO [http-nio-8090-exec-169] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:49:06.779 INFO [http-nio-8090-exec-169] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:50:38.271 INFO [http-nio-8090-exec-173] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:50:40.059 INFO [http-nio-8090-exec-173] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:50:40.091 INFO [http-nio-8090-exec-173] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:52:20.518 INFO [http-nio-8090-exec-183] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:52:22.182 INFO [http-nio-8090-exec-183] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:52:22.218 INFO [http-nio-8090-exec-183] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:56:20.695 INFO [http-nio-8090-exec-187] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:56:22.572 INFO [http-nio-8090-exec-187] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:56:22.615 INFO [http-nio-8090-exec-187] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:56:34.804 INFO [http-nio-8090-exec-190] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:56:36.635 INFO [http-nio-8090-exec-190] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:56:36.672 INFO [http-nio-8090-exec-190] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:56:48.115 INFO [http-nio-8090-exec-185] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:56:49.720 INFO [http-nio-8090-exec-185] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:56:49.751 INFO [http-nio-8090-exec-185] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:57:02.327 INFO [http-nio-8090-exec-189] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:57:04.192 INFO [http-nio-8090-exec-189] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:57:04.238 INFO [http-nio-8090-exec-189] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:58:06.626 INFO [http-nio-8090-exec-195] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:58:08.285 INFO [http-nio-8090-exec-195] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:58:08.324 INFO [http-nio-8090-exec-195] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 15:59:09.435 INFO [http-nio-8090-exec-205] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 15:59:11.235 INFO [http-nio-8090-exec-205] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 15:59:11.268 INFO [http-nio-8090-exec-205] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:00:10.612 INFO [http-nio-8090-exec-208] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:00:12.265 INFO [http-nio-8090-exec-208] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:00:12.307 INFO [http-nio-8090-exec-208] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:00:30.259 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+28-May-2022 16:00:30.260 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+28-May-2022 16:00:30.643 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+28-May-2022 16:00:30.679 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+28-May-2022 16:00:30.709 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+28-May-2022 16:00:39.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.7
+28-May-2022 16:00:39.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Jun 8 2021 16:31:06 UTC
+28-May-2022 16:00:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.7.0
+28-May-2022 16:00:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+28-May-2022 16:00:39.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+28-May-2022 16:00:39.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+28-May-2022 16:00:39.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-12
+28-May-2022 16:00:39.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       12+33
+28-May-2022 16:00:39.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+28-May-2022 16:00:39.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\apache-tomcat-10.0.7
+28-May-2022 16:00:39.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-10.0.7
+28-May-2022 16:00:39.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+28-May-2022 16:00:39.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+28-May-2022 16:00:39.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+28-May-2022 16:00:39.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-May-2022 16:00:39.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-May-2022 16:00:39.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\apache-tomcat-10.0.7\conf\logging.properties
+28-May-2022 16:00:39.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2022 16:00:39.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-EEAA2SF
+28-May-2022 16:00:39.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2022 16:00:39.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2022 16:00:39.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+28-May-2022 16:00:39.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+28-May-2022 16:00:39.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\apache-tomcat-10.0.7
+28-May-2022 16:00:39.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-10.0.7
+28-May-2022 16:00:39.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\apache-tomcat-10.0.7\temp
+28-May-2022 16:00:40.022 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.30] con la versión APR [1.7.0].
+28-May-2022 16:00:40.023 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+28-May-2022 16:00:40.035 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1k  25 Mar 2021]
+28-May-2022 16:00:40.981 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8090"]
+
+28-May-2022 16:00:41.114 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2074] milliseconds
+28-May-2022 16:00:41.313 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+28-May-2022 16:00:41.315 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.7]
+28-May-2022 16:00:41.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\devTest.xml]
+28-May-2022 16:00:41.447 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/devTest] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\devTest.xml] has been ignored
+28-May-2022 16:00:43.176 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [350] milliseconds.
+28-May-2022 16:00:43.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\devTest.xml] has finished in [1.897] ms
+28-May-2022 16:00:43.258 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\ROOT.xml]
+28-May-2022 16:00:43.260 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\ROOT.xml] has been ignored
+28-May-2022 16:00:44.965 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:00:44.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\ROOT.xml] has finished in [1.714] ms
+28-May-2022 16:00:44.973 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\sadad.xml]
+28-May-2022 16:00:44.975 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/sadad] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\sadad.xml] has been ignored
+28-May-2022 16:00:46.080 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:00:46.086 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\sadad.xml] has finished in [1.113] ms
+28-May-2022 16:00:46.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\SERVICIO.xml]
+28-May-2022 16:00:46.089 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SERVICIO] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\SERVICIO.xml] has been ignored
+28-May-2022 16:00:50.934 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:00:50.939 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+28-May-2022 16:00:50.941 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/SERVICIO] debido a errores previos
+28-May-2022 16:00:51.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\SERVICIO.xml] has finished in [4.980] ms
+28-May-2022 16:00:51.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\SOAP.xml]
+28-May-2022 16:00:51.097 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SOAP] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\SOAP.xml] has been ignored
+28-May-2022 16:00:55.249 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:00:55.254 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+28-May-2022 16:00:55.255 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/SOAP] debido a errores previos
+28-May-2022 16:00:55.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\SOAP.xml] has finished in [4.194] ms
+28-May-2022 16:00:55.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml]
+28-May-2022 16:00:55.265 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Store] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has been ignored
+28-May-2022 16:00:57.041 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:00:57.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has finished in [1.854] ms
+28-May-2022 16:00:57.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\testAPP.xml]
+28-May-2022 16:00:57.126 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/testAPP] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\testAPP.xml] has been ignored
+28-May-2022 16:00:57.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\testAPP.xml] has finished in [210] ms
+28-May-2022 16:00:57.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication1.xml]
+28-May-2022 16:00:57.332 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+28-May-2022 16:00:59.223 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:00:59.228 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:731)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:948)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1388)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:437)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:934)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+		... 37 more
+	Caused by: java.lang.NoClassDefFoundError: javax/servlet/ServletRequestListener
+		at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+		at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+		at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2517)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:872)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1408)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.catalina.core.ApplicationContext.addListener(ApplicationContext.java:1091)
+		at org.apache.catalina.core.ApplicationContextFacade.addListener(ApplicationContextFacade.java:662)
+		at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:92)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+	Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletRequestListener
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1444)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+		... 53 more
+28-May-2022 16:00:59.387 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication1.xml] has finished in [2.057] ms
+28-May-2022 16:00:59.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication2.xml]
+28-May-2022 16:00:59.400 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication2] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication2.xml] has been ignored
+28-May-2022 16:01:01.248 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:01:01.254 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication2.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:731)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:948)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1388)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:437)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:934)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication2]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+		... 37 more
+	Caused by: java.lang.NoClassDefFoundError: javax/servlet/ServletRequestListener
+		at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+		at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+		at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2517)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:872)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1408)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.catalina.core.ApplicationContext.addListener(ApplicationContext.java:1091)
+		at org.apache.catalina.core.ApplicationContextFacade.addListener(ApplicationContextFacade.java:662)
+		at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:92)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+	Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletRequestListener
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1444)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+		... 53 more
+28-May-2022 16:01:01.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication2.xml] has finished in [1.981] ms
+28-May-2022 16:01:01.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication3.xml]
+28-May-2022 16:01:01.374 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication3] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication3.xml] has been ignored
+28-May-2022 16:01:01.507 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:01:01.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication3.xml] has finished in [161] ms
+28-May-2022 16:01:01.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication4.xml]
+28-May-2022 16:01:01.537 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication4] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication4.xml] has been ignored
+28-May-2022 16:01:02.499 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication4.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:731)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:948)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1388)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:437)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:934)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication4]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+		... 37 more
+	Caused by: java.lang.NoClassDefFoundError: javax/servlet/ServletRequestListener
+		at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+		at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+		at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2517)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:872)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1408)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.catalina.core.ApplicationContext.addListener(ApplicationContext.java:1091)
+		at org.apache.catalina.core.ApplicationContextFacade.addListener(ApplicationContextFacade.java:662)
+		at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:92)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+	Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletRequestListener
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1444)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+		... 53 more
+28-May-2022 16:01:02.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\WebApplication4.xml] has finished in [1.069] ms
+28-May-2022 16:01:03.298 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\apache-tomcat-10.0.7\webapps\SimpleTestWeb.war] de la aplicación web
+28-May-2022 16:01:04.151 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:01:04.156 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-10.0.7\webapps\SimpleTestWeb.war] has finished in [858] ms
+28-May-2022 16:01:04.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-10.0.7\webapps\docs] de la aplicación web
+28-May-2022 16:01:04.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.7\webapps\docs] has finished in [65] ms
+28-May-2022 16:01:04.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-10.0.7\webapps\examples] de la aplicación web
+28-May-2022 16:01:06.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.7\webapps\examples] has finished in [1.894] ms
+28-May-2022 16:01:06.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-10.0.7\webapps\host-manager] de la aplicación web
+28-May-2022 16:01:06.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.7\webapps\host-manager] has finished in [417] ms
+28-May-2022 16:01:06.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-10.0.7\webapps\manager] de la aplicación web
+28-May-2022 16:01:06.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.7\webapps\manager] has finished in [127] ms
+28-May-2022 16:01:06.680 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-May-2022 16:01:07.148 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [26032] milliseconds
+28-May-2022 16:01:16.874 INFO [http-nio-8090-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Store]
+28-May-2022 16:01:17.529 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Store]
+28-May-2022 16:01:17.797 INFO [http-nio-8090-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml]
+28-May-2022 16:01:17.802 WARNING [http-nio-8090-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Store] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has been ignored
+28-May-2022 16:02:27.251 INFO [http-nio-8090-exec-4] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:02:27.585 INFO [23] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has finished in [69.788] ms
+28-May-2022 16:02:27.604 INFO [http-nio-8090-exec-11] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Store]] after start() had already been called. The second call will be ignored.
+28-May-2022 16:06:05.418 INFO [http-nio-8090-exec-11] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:06:05.448 WARNING [http-nio-8090-exec-11] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:06:05.450 WARNING [http-nio-8090-exec-11] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:06:05.989 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:06:05.991 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:06:05.991 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:06:06.090 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:06:10.703 INFO [http-nio-8090-exec-11] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:06:10.796 INFO [http-nio-8090-exec-11] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:06:23.439 INFO [http-nio-8090-exec-13] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Store]
+28-May-2022 16:06:23.468 INFO [http-nio-8090-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml]
+28-May-2022 16:06:23.470 WARNING [http-nio-8090-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Store] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has been ignored
+28-May-2022 16:06:56.084 INFO [http-nio-8090-exec-14] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:06:56.131 INFO [http-nio-8090-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has finished in [32.664] ms
+28-May-2022 16:06:56.139 INFO [http-nio-8090-exec-23] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Store]] after start() had already been called. The second call will be ignored.
+28-May-2022 16:08:58.256 INFO [http-nio-8090-exec-25] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:08:58.265 WARNING [http-nio-8090-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:08:58.266 WARNING [http-nio-8090-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:08:58.654 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:08:58.655 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:09:03.141 INFO [http-nio-8090-exec-25] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:09:03.183 INFO [http-nio-8090-exec-25] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:10:11.300 INFO [http-nio-8090-exec-37] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:10:13.366 INFO [http-nio-8090-exec-37] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:10:13.419 INFO [http-nio-8090-exec-37] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:12:14.344 INFO [http-nio-8090-exec-39] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:12:16.110 INFO [http-nio-8090-exec-39] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:12:16.156 INFO [http-nio-8090-exec-39] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:13:46.776 INFO [http-nio-8090-exec-27] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Store]
+28-May-2022 16:13:46.797 INFO [http-nio-8090-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml]
+28-May-2022 16:13:46.799 WARNING [http-nio-8090-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Store] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has been ignored
+28-May-2022 16:15:01.921 INFO [http-nio-8090-exec-42] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:15:01.970 INFO [http-nio-8090-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has finished in [75.174] ms
+28-May-2022 16:15:01.977 INFO [http-nio-8090-exec-40] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Store]] after start() had already been called. The second call will be ignored.
+28-May-2022 16:19:21.940 INFO [http-nio-8090-exec-49] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:19:21.965 WARNING [http-nio-8090-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:19:21.966 WARNING [http-nio-8090-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:19:22.438 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:19:22.439 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:19:27.289 INFO [http-nio-8090-exec-49] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:19:27.336 INFO [http-nio-8090-exec-49] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:20:05.373 INFO [http-nio-8090-exec-56] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:20:07.261 INFO [http-nio-8090-exec-56] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:20:07.320 INFO [http-nio-8090-exec-56] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:20:12.455 INFO [http-nio-8090-exec-50] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:20:14.141 INFO [http-nio-8090-exec-50] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:20:14.181 INFO [http-nio-8090-exec-50] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:22:49.595 INFO [http-nio-8090-exec-63] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:22:49.600 WARNING [http-nio-8090-exec-63] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:22:49.601 WARNING [http-nio-8090-exec-63] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:22:50.138 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:22:50.141 INFO [95] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:22:51.504 INFO [http-nio-8090-exec-63] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:22:51.547 INFO [http-nio-8090-exec-63] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:23:11.659 INFO [http-nio-8090-exec-72] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Store]
+28-May-2022 16:23:11.697 INFO [http-nio-8090-exec-66] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml]
+28-May-2022 16:23:11.701 WARNING [http-nio-8090-exec-66] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Store] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has been ignored
+28-May-2022 16:23:20.855 INFO [http-nio-8090-exec-66] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:23:20.892 INFO [http-nio-8090-exec-66] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has finished in [9.194] ms
+28-May-2022 16:23:20.897 INFO [http-nio-8090-exec-48] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Store]] after start() had already been called. The second call will be ignored.
+28-May-2022 16:24:52.687 INFO [http-nio-8090-exec-77] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:24:52.693 WARNING [http-nio-8090-exec-77] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:24:52.695 WARNING [http-nio-8090-exec-77] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:24:52.941 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:24:52.942 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:24:56.756 INFO [http-nio-8090-exec-77] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:24:56.826 INFO [http-nio-8090-exec-77] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:25:18.013 INFO [http-nio-8090-exec-86] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Store]
+28-May-2022 16:25:18.033 INFO [http-nio-8090-exec-76] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml]
+28-May-2022 16:25:18.035 WARNING [http-nio-8090-exec-76] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Store] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has been ignored
+28-May-2022 16:25:22.803 INFO [http-nio-8090-exec-76] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:25:22.869 INFO [http-nio-8090-exec-76] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has finished in [4.836] ms
+28-May-2022 16:25:22.877 INFO [http-nio-8090-exec-76] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Store]] after start() had already been called. The second call will be ignored.
+28-May-2022 16:27:06.297 INFO [http-nio-8090-exec-91] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:27:06.309 WARNING [http-nio-8090-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:27:06.310 WARNING [http-nio-8090-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:27:06.609 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:27:06.610 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:27:11.191 INFO [http-nio-8090-exec-91] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:27:11.226 INFO [http-nio-8090-exec-91] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:28:48.892 INFO [http-nio-8090-exec-90] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:28:50.751 INFO [http-nio-8090-exec-90] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:28:50.788 INFO [http-nio-8090-exec-90] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:28:56.631 INFO [http-nio-8090-exec-98] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:28:58.253 INFO [http-nio-8090-exec-98] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:28:58.305 INFO [http-nio-8090-exec-98] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:29:00.521 INFO [http-nio-8090-exec-97] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:29:02.356 INFO [http-nio-8090-exec-97] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:29:02.405 INFO [http-nio-8090-exec-97] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:29:31.742 INFO [http-nio-8090-exec-103] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Store]
+28-May-2022 16:29:31.765 INFO [http-nio-8090-exec-95] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml]
+28-May-2022 16:29:31.768 WARNING [http-nio-8090-exec-95] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Store] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has been ignored
+28-May-2022 16:32:00.170 INFO [http-nio-8090-exec-95] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:32:00.207 INFO [http-nio-8090-exec-95] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has finished in [148.441] ms
+28-May-2022 16:32:00.213 INFO [http-nio-8090-exec-107] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Store]] after start() had already been called. The second call will be ignored.
+28-May-2022 16:34:36.986 INFO [http-nio-8090-exec-113] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:34:36.994 WARNING [http-nio-8090-exec-113] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:34:36.995 WARNING [http-nio-8090-exec-113] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:34:37.281 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:34:37.287 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:34:37.291 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:34:37.324 INFO [150] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:34:41.968 INFO [http-nio-8090-exec-113] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:34:42.011 INFO [http-nio-8090-exec-113] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:35:49.294 INFO [http-nio-8090-exec-112] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:35:51.248 INFO [http-nio-8090-exec-112] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:35:51.302 INFO [http-nio-8090-exec-112] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:35:58.011 INFO [http-nio-8090-exec-110] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:35:59.952 INFO [http-nio-8090-exec-110] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:36:00.006 INFO [http-nio-8090-exec-110] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:36:06.548 INFO [http-nio-8090-exec-111] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:36:08.356 INFO [http-nio-8090-exec-111] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:36:08.391 INFO [http-nio-8090-exec-111] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:37:08.772 INFO [http-nio-8090-exec-125] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:37:11.048 INFO [http-nio-8090-exec-125] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:37:11.119 INFO [http-nio-8090-exec-125] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:37:22.687 INFO [http-nio-8090-exec-118] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:37:24.577 INFO [http-nio-8090-exec-118] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:37:24.616 INFO [http-nio-8090-exec-118] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:37:31.107 INFO [http-nio-8090-exec-120] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:37:32.968 INFO [http-nio-8090-exec-120] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:37:33.014 INFO [http-nio-8090-exec-120] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:38:07.010 INFO [http-nio-8090-exec-133] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:38:08.802 INFO [http-nio-8090-exec-133] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:38:08.842 INFO [http-nio-8090-exec-133] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:38:19.213 INFO [http-nio-8090-exec-108] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:38:21.223 INFO [http-nio-8090-exec-108] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:38:21.267 INFO [http-nio-8090-exec-108] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:38:27.616 INFO [http-nio-8090-exec-137] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:38:29.354 INFO [http-nio-8090-exec-137] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:38:29.410 INFO [http-nio-8090-exec-137] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:38:38.788 INFO [http-nio-8090-exec-124] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:38:40.297 INFO [http-nio-8090-exec-124] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:38:40.333 INFO [http-nio-8090-exec-124] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:43:30.206 INFO [http-nio-8090-exec-142] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:43:32.015 INFO [http-nio-8090-exec-142] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:43:32.060 INFO [http-nio-8090-exec-142] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:47:40.219 INFO [http-nio-8090-exec-155] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:47:42.158 INFO [http-nio-8090-exec-155] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:47:42.196 INFO [http-nio-8090-exec-155] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:48:24.926 INFO [http-nio-8090-exec-160] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:48:26.372 INFO [http-nio-8090-exec-160] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:48:26.410 INFO [http-nio-8090-exec-160] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:48:37.089 INFO [http-nio-8090-exec-152] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:48:39.196 INFO [http-nio-8090-exec-152] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:48:39.266 INFO [http-nio-8090-exec-152] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:48:39.626 INFO [http-nio-8090-exec-158] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:48:41.562 INFO [http-nio-8090-exec-158] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:48:41.596 INFO [http-nio-8090-exec-158] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:48:48.810 INFO [http-nio-8090-exec-159] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:48:50.433 INFO [http-nio-8090-exec-159] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:48:50.469 INFO [http-nio-8090-exec-159] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:48:50.828 INFO [http-nio-8090-exec-161] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:48:52.861 INFO [http-nio-8090-exec-161] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:48:52.909 INFO [http-nio-8090-exec-161] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:48:53.252 INFO [http-nio-8090-exec-163] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:48:55.392 INFO [http-nio-8090-exec-163] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:48:55.430 INFO [http-nio-8090-exec-163] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:48:55.784 INFO [http-nio-8090-exec-151] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:48:57.551 INFO [http-nio-8090-exec-151] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:48:57.603 INFO [http-nio-8090-exec-151] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:50:01.382 INFO [http-nio-8090-exec-156] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:50:03.473 INFO [http-nio-8090-exec-156] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:50:03.534 INFO [197] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:50:03.901 INFO [http-nio-8090-exec-172] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:50:05.976 INFO [http-nio-8090-exec-172] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:50:06.021 INFO [http-nio-8090-exec-172] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:50:06.381 INFO [http-nio-8090-exec-169] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:50:08.503 INFO [http-nio-8090-exec-169] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:50:08.556 INFO [http-nio-8090-exec-169] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:50:08.905 INFO [http-nio-8090-exec-175] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:50:11.373 INFO [http-nio-8090-exec-175] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:50:11.422 INFO [http-nio-8090-exec-175] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:50:11.773 INFO [http-nio-8090-exec-176] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:50:13.469 INFO [http-nio-8090-exec-176] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:50:13.508 INFO [http-nio-8090-exec-176] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:50:41.115 INFO [http-nio-8090-exec-164] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:50:43.111 INFO [http-nio-8090-exec-164] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:50:43.156 INFO [http-nio-8090-exec-164] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:50:43.515 INFO [http-nio-8090-exec-153] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:50:45.219 INFO [http-nio-8090-exec-153] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:50:45.262 INFO [http-nio-8090-exec-153] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:50:48.900 INFO [http-nio-8090-exec-170] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:50:51.015 INFO [http-nio-8090-exec-170] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:50:51.052 INFO [http-nio-8090-exec-170] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:51:30.937 INFO [http-nio-8090-exec-182] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Store]
+28-May-2022 16:51:30.985 INFO [http-nio-8090-exec-179] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml]
+28-May-2022 16:51:30.988 WARNING [http-nio-8090-exec-179] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Store] in deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has been ignored
+28-May-2022 16:51:58.991 INFO [http-nio-8090-exec-179] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:51:59.034 INFO [http-nio-8090-exec-179] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.7\conf\Catalina\localhost\Store.xml] has finished in [28.048] ms
+28-May-2022 16:51:59.039 INFO [http-nio-8090-exec-180] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Store]] after start() had already been called. The second call will be ignored.
+28-May-2022 16:53:48.377 INFO [http-nio-8090-exec-188] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:53:48.382 WARNING [http-nio-8090-exec-188] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:53:48.383 WARNING [http-nio-8090-exec-188] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:53:48.856 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:53:48.857 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:53:50.231 INFO [http-nio-8090-exec-188] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:53:50.277 INFO [http-nio-8090-exec-188] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:53:53.902 INFO [http-nio-8090-exec-193] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:53:55.829 INFO [http-nio-8090-exec-193] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:53:55.928 INFO [http-nio-8090-exec-193] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:54:55.196 INFO [http-nio-8090-exec-195] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:54:56.940 INFO [http-nio-8090-exec-195] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:54:57.007 INFO [http-nio-8090-exec-195] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:55:14.704 INFO [http-nio-8090-exec-199] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:55:16.110 INFO [http-nio-8090-exec-199] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:55:16.150 INFO [http-nio-8090-exec-199] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:55:19.641 INFO [http-nio-8090-exec-202] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:55:21.059 INFO [http-nio-8090-exec-202] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:55:21.100 INFO [http-nio-8090-exec-202] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:55:47.399 INFO [http-nio-8090-exec-203] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:55:47.407 WARNING [http-nio-8090-exec-203] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:55:47.408 WARNING [http-nio-8090-exec-203] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:55:47.435 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:55:49.172 INFO [http-nio-8090-exec-203] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:55:49.215 INFO [http-nio-8090-exec-203] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:55:59.988 INFO [http-nio-8090-exec-207] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:56:01.313 INFO [http-nio-8090-exec-207] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:56:01.346 INFO [http-nio-8090-exec-207] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 16:59:10.854 INFO [http-nio-8090-exec-217] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 16:59:10.860 WARNING [http-nio-8090-exec-217] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Store] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+28-May-2022 16:59:10.861 WARNING [http-nio-8090-exec-217] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Store] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12/java.lang.Object.wait(Native Method)
+ java.base@12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:59:12.668 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1054)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+28-May-2022 16:59:12.741 INFO [http-nio-8090-exec-217] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 16:59:12.771 INFO [http-nio-8090-exec-217] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 17:00:32.911 INFO [http-nio-8090-exec-228] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 17:00:35.062 INFO [http-nio-8090-exec-228] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 17:00:35.100 INFO [http-nio-8090-exec-228] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+28-May-2022 17:00:39.096 INFO [http-nio-8090-exec-222] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Store]
+28-May-2022 17:00:40.550 INFO [http-nio-8090-exec-222] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+28-May-2022 17:00:40.586 INFO [http-nio-8090-exec-222] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto

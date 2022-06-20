@@ -1,0 +1,12 @@
+127.0.0.1 - - [09/Jan/2022:14:10:25 -0600] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2022:14:10:25 -0600] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2022:14:10:25 -0600] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2022:14:10:25 -0600] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2022:14:10:26 -0600] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2022:14:10:26 -0600] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [09/Jan/2022:14:10:27 -0600] "GET /manager/text/ HTTP/1.1" 200 44
+127.0.0.1 - admin [09/Jan/2022:14:10:27 -0600] "GET /manager/text/ HTTP/1.1" 200 44
+127.0.0.1 - - [09/Jan/2022:14:10:27 -0600] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [09/Jan/2022:14:10:27 -0600] "GET /manager/text/ HTTP/1.1" 200 44
+127.0.0.1 - - [09/Jan/2022:14:10:27 -0600] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [09/Jan/2022:14:10:27 -0600] "GET /manager/text/ HTTP/1.1" 200 44
